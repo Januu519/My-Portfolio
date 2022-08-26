@@ -1,0 +1,27 @@
+body{
+    width:100vw;
+    height:100vh;
+
+}
+.headerTitleNavLinks ul{
+    position: sticky;
+    background-color: red;
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 0;
+    width: 1500px;
+    height: 50px;
+}
+.backgroundHome{
+    width:100vw;
+    height:100vh;
+
+}
+li{
+    display: inline;
+}
+/*.WishalNipunSiriwaradana{*/
+/*    font-family:'Oswald', sans-serif;*/
+/*    color: white;*/
+/*    position: absolute;*/
+/*}*/
