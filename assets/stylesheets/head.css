@@ -51,7 +51,7 @@ nav ul li a:hover{
     color: #f9004d;
     transition: .4s;
 }
-/*
+
 .btn{
     background-color:#f9004d;
     color: white;
@@ -62,10 +62,10 @@ nav ul li a:hover{
     border-radius: 30px;
     transition: transform .4s;
 }
-.btn:hover{
+/*.btn:hover{
     transform: scale(1.2);
-}
-*/
+}*/
+
 
 
 
