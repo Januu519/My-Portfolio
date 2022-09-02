@@ -35,5 +35,46 @@ h4{
 }
 
 
+.myProfile{
+    position: absolute;
+    width: 360px;
+    height: 435px;
+    right: 14%;
+    top: 160px;
+    z-index: 1;
+}
+
+/*#follow{
+    position: absolute;
+    right: -3%;
+    top: 174.5px;
+    transform: rotate(90deg);
+    color: #FFFFFF;
+    font-family:"Calibri";
+    font-size: 14px;
+    height: 150px;
+    width: 300px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+
+.linkedinWhite{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 1.7%;
+    top: 250px;
+}
+
+.githubWhite{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 1.7%;
+    top: 300px;
+}*/
+
 
 
