@@ -33,12 +33,13 @@ nav{
 span{
     color: #f9004d;
 }
-/*
+
 nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 10px  25px;
 }
+/*
 nav ul li a{
     color: white;
     text-decoration: none;
@@ -62,6 +63,7 @@ nav ul li a:hover{
 .btn:hover{
     transform: scale(1.2);
 }
+
 
 
 */
