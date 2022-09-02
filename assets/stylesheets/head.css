@@ -1,14 +1,14 @@
-/*
+
 header{
     padding: 0;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
+
 .hero{
     height: 100vh;
     width: 100%;
-   !* background-image: url(../images/propic.png);*!
     background-color: #191919;
     background-size: cover;
     background-position: center;
@@ -57,4 +57,5 @@ nav ul li a:hover{
 }
 .btn:hover{
     transform: scale(1.2);
-}*/
+}
+
