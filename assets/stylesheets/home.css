@@ -44,7 +44,7 @@ h4{
     z-index: 1;
 }
 
-/*#follow{
+#follow{
     position: absolute;
     right: -3%;
     top: 174.5px;
@@ -59,6 +59,7 @@ h4{
     line-height: 16px;
 }
 
+/*
 
 .linkedinWhite{
     position: absolute;
@@ -74,7 +75,8 @@ h4{
     height: 35px;
     right: 1.7%;
     top: 300px;
-}*/
+}
+*/
 
 
 
