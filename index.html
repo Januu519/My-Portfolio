@@ -14,7 +14,15 @@
 
     <link href="assets/stylesheets/fonts/css/all.min.css"   rel="stylesheet" >
     <link rel="stylesheet" href="assets/stylesheets/head.css">
-   <link rel="stylesheet" href="assets/stylesheets/home.css">
+   <link rel="stylesheet" href="assets/stylesheets/normalize.css">
+   <!-- <link rel="stylesheet" href="assets/stylesheets/about.css">-->
+    <!--<link rel="stylesheet" href="assets/stylesheets/services.css">
+    <link rel="stylesheet" href="assets/stylesheets/skills.css">
+    <link rel="stylesheet" href="assets/stylesheets/projects.css">
+    <link rel="stylesheet" href="assets/stylesheets/contact.css">
+    <link rel="stylesheet" href="assets/stylesheets/footer.css">
+
+-->
 </head>
 <body>
 
@@ -34,18 +42,12 @@
             <a href="#" class="btn">Subscribe</a>
         </nav>
     </div>
-
-
 </header>
 
 <!--main side-->
 <main>
     <!--Home page-->
-    <section>
-        <!--description-->
-    <section>
-    <!--name-->
-        <section>
+
             <div class="content">
             <H4>Hello,my name is</H4>
                 <h1>Jayamini <span >Sakunthala</span></h1>
@@ -57,7 +59,7 @@
                     </form>
                 </div>
             </div>
-        </section>
+
 
         <address>
             <h6 id="follow">FOLLOW ME ON :</h6>
@@ -72,17 +74,41 @@
            <!-- <div align="right"><img src="assets/images/propic-removebg-preview.png" alt="logo" width="340" height="415"></div>-->
             <img class="myProfile" src="assets/images/propic-removebg-preview.png" alt="my profile" width="340" height="415">
         </aside>
-    </section>
+
 
 
         <!--About Me Page-->
-        <section>
-            <section>
-                <h1 align="center">About Me</h1>
-            </section>
 
-            <section>
-                <article>
+           <section class="about">
+             <!--   <div class="about-text">
+                <h1 align="center">About Me</h1>-->
+                    <!--<h2>About Me</h2>-->
+
+                    <div class="about-text">
+                        <h1 align="center">About Me</h1>
+                        <h5>Developer <span>& Designer</span></h5>
+
+                        <p>
+                           <pre class="para">
+                            My name is Jayamini Sakuthala.I’m first year
+                            Student in <abbr title="Insitute of Software Engineering">IJSE</abbr>
+
+                            I’m currently learning more about software development ,
+                            web development, and Internet technologies.
+                            I did to improve my skills with working on projects.
+
+                            I like work as freelance UX/UI designer & web develper.
+                        </pre>
+                        </p>
+                        <button class="btnletsTalk" type="button">Let's Talk</button>
+                    </div>
+
+
+                </div>
+
+
+           <!-- <section>-->
+              <!--  <article>
                       <pre align="left">
                            My name is Jayamini Sakuthala.I’m first year
                     Student in <abbr title="Insitute of Software Engineering">IJSE</abbr>
@@ -93,9 +119,11 @@
 
                     I like work as freelance UX/UI designer & web develper.
                       </pre>
-                </article>
+                </article>-->
 
-                <div align="left"><img src="assets/images/bg.jpeg"></div>
+                <div align="left">
+                    <img class="bgPic" src="assets/images/bg.png">
+                </div>
 
                 <div>
                     <samp>I'm ready to start working together
@@ -106,20 +134,61 @@
 
             <section>
                 <aside>
-                    <div align="right"><img src="assets/images/cv.png" alt="my CV" width="210" height="300"></div>
-                    <div align="right"></div> <button radius="50px">Download CV</button>
+                    <div align="right">
+                        <img class="myCv" src="assets/images/cv.png" alt="my CV" width="210" height="300">
+                       <!-- <img class="myProfile" src="assets/images/propic-removebg-preview.png" alt="my profile" width="340" height="415">-->
+                    </div>
+                    <div align="right"></div> <button class="btnDownloadCv" type="button"  >Download CV</button>
                 </aside>
             </section>
         </section>
 
         <!--My Services Page-->
 
-        <section>
-            <section>
-                <h1 align="center">My Services</h1>
-            </section>
+    <div class="service">
+        <div class="title">
+            <h2>My Services</h2>
+        </div>
 
-            <section>
+        <div class="box">
+            <div class="card">
+                <i class="fas fa-bars"></i>
+                <h5>Web Development</h5>
+                <div class="pra">
+                    <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="far fa-user"></i>
+                <h5>Web Development</h5>
+                <div class="pra">
+                    <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="far fa-bell"></i>
+                <h5>Web Development</h5>
+                <div class="pra">
+                    <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+               <!-- <section>
                 <div align="left"><img src="assets/images/clean-code.png" alt="UI/UX Design Icon" width="110" height="114">
                     <u>UI/UX Design</u>
                     <ul>
@@ -129,8 +198,22 @@
                     </ul>
                 </div>
             </section>
+-->
+            <!--    <div class="box">
+                    <div class="card">
+                        <i class="fas fa-bars"></i>
+                        <h5>Web Development</h5>
+                        <div class="pra">
+                            <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
-            <section>
+                            <p style="text-align: center;">
+                                <a class="button" href="#">Read More</a>
+                            </p>
+                        </div>
+                    </div>-->
+
+
+                   <!-- <section>
                 <div align="left"><img src="assets/images/online.png" alt="Web Development Icon" width="110" height="114">
                     <u>Web Development</u>
                 <ul>
@@ -139,9 +222,25 @@
                     <li>Front-end Design</li>
                 </ul>
             </div>
-            </section>
+            </section>-->
+<!--
 
-            <section> <div align="left"><img src="assets/images/custom.png" alt="Software Development Icon" width="110" height="114">
+                    <div class="card">
+                        <i class="far fa-user"></i>
+                        <h5>Web Development</h5>
+                        <div class="pra">
+                            <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+                            <p style="text-align: center;">
+                                <a class="button" href="#">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+-->
+
+           <!-- <section> <div align="left"><img src="assets/images/custom.png" alt="Software Development Icon" width="110" height="114">
                 <u>Software Development</u>
                 <ul>
                     <li>All Standalone softwares with Java,Html & Css</li>
@@ -149,18 +248,33 @@
             </div>
             </section>
         </section>
+-->
+                 <!--   <div class="card">
+                        <i class="far fa-user"></i>
+                        <h5>Web Development</h5>
+                        <div class="pra">
+                            <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+                            <p style="text-align: center;">
+                                <a class="button" href="#">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+-->
 
         <!--My Skills Page-->
-        <section>
-            <section>
-                <h1 align="center">My Skills</h1>
-            </section>
+    <div class="skills">
+        <div class="title">
+            <h2>My Skills</h2>
+        </div>
+    </div>
 
             <!--Languages-->
             <section>
-                <aside>
-                <div>
-                    <h3 align="center">Languages</h3>
+                <div class="box">
+                    <div class="card1">
+                <div class="Languages">
+                    <h5 align="center">Languages</h5>
                     <p class="imgPara"><img class="java" src="assets/images/java.png" alt="java" width="60" height="60">
                         <img class="mysql" src="assets/images/mysql.png" alt="mysql" width="60" height="60">
                         <img class="css" src="assets/images/css-3.png" alt="css" width="60" height="60">
@@ -173,26 +287,31 @@
                         <img class="php" src="assets/images/php.png" alt="php" width="60" height="60">
 
                 </div>
-                </aside>
+                    </div>
+                </div>
+
             </section>
 
             <!--Frameworks-->
             <section>
-                <aside>
-                <div>
-                <h3 align="center">Frameworks</h3>
+                <div class="box">
+                    <div class="card1">
+                <div class="frameworks">
+                <h5 align="center">Frameworks</h5>
                     <img class="hibernate" src="assets/images/hibernate.png" alt="hibernate" width="60" height="60">
                     <img class="spring" src="assets/images/spring.png" alt="spring" width="60" height="60">
 
                 </div>
-                </aside>
+                    </div>
+                </div>
             </section>
 
             <!--Tools-->
             <section>
-                <aside>
-                <div>
-                <h3 align="center">Tools</h3>
+                <div class="box">
+                    <div class="card1">
+                <div class="tools" >
+                <h5 align="center">Tools</h5>
                     <img class="intelij" src="assets/images/intelij.jpg" alt="intelij" width="60" height="60">
                     <img class="netbeans" src="assets/images/netbeans.png" alt="netbeans" width="50" height="60">
                     <img class="vs" src="assets/images/vs.png" alt="vs" width="60" height="60">
@@ -202,21 +321,22 @@
                     <img class="lightroom" src="assets/images/lightroom.png" alt="lightroom" width="60" height="60">
                     <img class="ps" src="assets/images/ps.png" alt="ps" width="60" height="60">
                 </div>
-                </aside>
+                    </div>
+                </div>
             </section>
 
             <aside>
                 <div align="right"><img src="assets/images/stu.jpg"></div>
             </aside>
         </section>
-    </section>
+
 
         <!--My Projects Page-->
-    <section>
-        <section>
-            <h1 align="center">My Projects</h1>
-        </section>
-
+    <div class="projects">
+        <div class="title">
+            <h2>My Projects</h2>
+        </div>
+    </div>
       <section>
             <div>
                 <figure>
@@ -272,11 +392,18 @@
 
     <!--Contact me page-->
 
-    <section>
-        <section>
-            <h1 align="center">Contact Me</h1>
-        </section>
+   <!-- <div class="contact-me">
+        <p>Let Me Get You A Beautiful Website.</p>
+        <a class="button-two" href="#">Hire Me</a>
+    </div>-->
 
+
+
+        <div class="contact">
+            <div class="title">
+                <h2>Contact Me</h2>
+            </div>
+        </div>
         <aside>
             <div>
                 <div>
@@ -346,15 +473,16 @@
                 <img class="discord" src="assets/images/discord.png" alt="discord" width="40" height="40">
             </div>
         </div>
-    </section>
+
 </main>
+
 <footer>
     <section>
         <br>
         <br>
         <hr>
         <br>
-        <p align="center"><small>©copyright myportfolio.All Rights Reserved.
+        <p  align="center"><small class="end">©copyright myportfolio.All Rights Reserved.
             Designed by JayaminiSakunthala</small></p>
     </section>
 </footer>
