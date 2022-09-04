@@ -158,3 +158,78 @@ h4{
     right: 1.7%;
     top: 300px;
 }
+
+/*about section*/
+#about{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    top: 660px;
+    background-color: #03060c;
+}
+
+
+
+#about>.about-text{
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    color: white;
+
+}
+
+#about>h1:nth-child(1){
+    position: relative;
+    color: #e7d5d5;
+    font-size: 50px;
+    left: 45%;
+    top: 5%;
+    display: inline;
+
+}
+
+#cv-card{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background-color: #8e44ad;
+    left: 80%;
+    bottom: 40%;
+    border: #625C56 solid 5px;
+}
+
+#cv-card>.myCv{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+}
+
+.btnDownloadCv{
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    background-color: #f9004d;
+    color: white;
+    left: 83%;
+    bottom: 30%;
+    /* border: #d9d1c9 solid 3px;*/
+    border-radius: 100px;
+}
+
+.btnDownloadCv:hover{
+    transform: scale(1.2);
+}
+
+.bgPic{
+    position: absolute;
+    width: 325px;
+    height: 300px;
+    top: 40%;
+    left: 2%;
+    margin: 0;
+    border-radius: 100%;
+}
+
+.para-two{
+    color: #c91b58;
+}
