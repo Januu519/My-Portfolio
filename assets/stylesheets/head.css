@@ -309,3 +309,73 @@ h4{
     top: 40%;
     left: 5%;
 }
+
+/*section skill*/
+
+#skill-section{
+    position: absolute;
+    top: 1950px;
+    height: 700px;
+    width: 100%;
+    background-color: #000000;
+}
+
+#skill-section>h1:nth-child(1){
+    position: relative;
+    display: inline;
+    left: 40%;
+    top: 5%;
+    color: white;
+    font-size: 50px;
+}
+
+#skill-section>#languages{
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.2);
+    left: 7%;
+    top: 22%;
+    border-radius: 50px;
+}
+
+#skill-section>#tools{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.2);
+    left: 45%;
+    top: 55%;
+    border-radius: 50px;
+}
+
+#skill-section>#languages>h2{
+    color: white;
+    position:absolute;
+    left: 30%;
+    top: 1%;
+}
+
+#skill-section>#tools>h2{
+    color: white;
+    position:absolute;
+    left: 40%;
+    top: 1%;
+}
+
+
+#skill-section>#languages>div{
+    position: absolute;
+    display: inline-block;
+    left: 10%;
+    top: 30%;
+}
+
+#skill-section>#tools>div{
+    position: absolute;
+    display: inline-block;
+    left: 20%;
+    top: 30%;
+}
+
+/*section projects*/
