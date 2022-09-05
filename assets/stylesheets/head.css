@@ -17,7 +17,7 @@ header{
     position: absolute;
     height: 100vh;
     width: 100%;
-    background-color: #191919;
+    background-color: #03060c;
     background-size: cover;
     background-position: center;
 }
@@ -103,6 +103,7 @@ h4{
 }
 
 
+
 .newslatter form input:first-child{
     position: absolute;
     outline: none;
@@ -165,7 +166,7 @@ h4{
     width: 100%;
     height: 700px;
     top: 660px;
-    background-color: #03060c;
+    background-color: #1f2021;
 }
 
 
@@ -317,7 +318,7 @@ h4{
     top: 1950px;
     height: 700px;
     width: 100%;
-    background-color: #000000;
+    background-color: #1f2021;
 }
 
 #skill-section>h1:nth-child(1){
