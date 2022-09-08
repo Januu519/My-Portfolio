@@ -257,7 +257,8 @@ h4{
 
 #service-section>.frame{
     position: absolute;
-    display: inline;
+    color: #0c39bf;
+   /* display: inline;*/
     top: 25%;
     width: 300px;
     height: 380px;
@@ -550,7 +551,7 @@ h4{
 }
 
 #contact-section>h2{
-    color: white;
+    color: blue;
     position: absolute;
     top: 88%;
 }
@@ -561,22 +562,22 @@ h4{
 }
 
 #contact-section>#l2{
-    left: 30%;
+    left: 25%;
     top: 92%;
 }
 
 #contact-section>#l3{
-    left: 40%;
+    left: 30%;
     top: 92%;
 }
 
 #contact-section>#l4{
-    left: 50%;
+    left: 35%;
     top: 92%;
 }
 
 #contact-section>#l5{
-    left: 60%;
+    left: 40%;
     top: 92%;
 }
 
