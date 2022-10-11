@@ -23,7 +23,7 @@ header{
 }
 
 #nav-bar{
-    position: absolute;
+    position: sticky;
     display: flex;
     align-items: center;
     left: 15%;
@@ -39,6 +39,8 @@ header{
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
+    position: relative;
+    right:10px;
 }
 
 span{
@@ -553,7 +555,8 @@ h4{
 #contact-section>h2{
     color: blue;
     position: absolute;
-    top: 88%;
+    top: 83%;
+    left: 5%;
 }
 
 #contact-section>#l1{
