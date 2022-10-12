@@ -1,0 +1,15 @@
+body{
+    background-color: #f8a5c2;
+}
+
+#sec-one{
+    height: 80px;
+    background-color:#c44569;
+    border-bottom: #1b2828 2px solid;
+}
+
+#im{
+    width: 70px;
+    height: 70px;
+    margin-top: -1px;
+}
