@@ -178,6 +178,63 @@
         bigNumber("=");
     });
 
+    var largeNumber = "0";
+    var cNum = 0;
+
+
+    function bigNumber(num){
+        var sel = num;
+        if (sel==="+" || sel==="-" || sel ==="*" || sel ==="/"){
+            console.log("selected non integer");
+            var icon = sel;
+            $("#display-two").val(sel);
+            console.log("sent "+largeNumber);
+            calculation(largeNumber);
+            largeNumber = "0";
+        }else if (sel === "="){
+            lastCal(largeNumber);
+            largeNumber = "0";
+        }else{
+            largeNumber = largeNumber+""+num;
+            dNum = parseInt(largeNumber);
+            $("#display-one").val(dNum);
+
+            console.log(largeNumber);
+        }
+    }
+
+    function calculation(dig){
+        cNum = parseInt(dig);
+        console.log("after converting : "+cNum);
+    }
+
+    function lastCal(nLast){
+        var cNumTwo = parseInt(nLast);
+        var operator = $("#display-two").val();
+
+        if(operator === "+"){
+            cNum = cNum + cNumTwo;
+            $("#display-one").val("   "+cNum);
+        }
+
+        if(operator === "-"){
+            cNum = cNum - cNumTwo;
+            $("#display-one").val("   "+cNum);
+        }
+
+        if(operator === "*"){
+            cNum = cNum * cNumTwo;
+            $("#display-one").val("   "+cNum);
+        }
+
+        if(operator === "/"){
+            cNum = cNum / cNumTwo;
+            $("#display-one").val("   "+cNum);
+        }
+
+    }
+
+
 
 
 </script>
