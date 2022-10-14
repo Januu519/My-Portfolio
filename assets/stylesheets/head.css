@@ -208,9 +208,11 @@ nav ul li a:hover{
 
 #about>.about-text{
     position: absolute;
-    left: 10%;
+    left: 5%;
     top: 15%;
     color: white;
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
 
 }
 
@@ -265,9 +267,20 @@ nav ul li a:hover{
     margin: 0;
     border-radius: 100%;
 }
+/*
+
+#about>.about-text para{
+    left: 15%;
+    font-family: 'Source Code Pro', monospace;
+}
+*/
 
 .para-two{
-    color: #c91b58;
+    color: #FDA7DF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    left: 15%;
+
 }
 
 
@@ -438,6 +451,49 @@ nav ul li a:hover{
 }
 
 
+#hostel{
+    position: relative;
+    display: inline;
+    left: 40%;
+    top: 5%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Aclonica', sans-serif;
+
+}
+
+#student{
+    color: white;
+    font-size: 20px;
+    left: 35%;
+    top: 92%;
+
+
+}
+#parking{
+    color: white;
+    font-size: 20px;
+
+}
+
+#restaurant{
+    color: white;
+    font-size: 20px;
+
+}
+
+#supermarket{
+    color: white;
+    font-size: 20px;
+
+}
+
+#hotel{
+    color: white;
+    font-size: 20px;
+
+}
+
 
 #project-section>#p1{
     position: absolute;
@@ -446,12 +502,14 @@ nav ul li a:hover{
     top: 20%;
 }
 
+
 #project-section>#p2{
     position: absolute;
     left: 40%;
     display: inline;
     top: 20%;
 }
+
 
 #project-section>#p3{
     position: absolute;
