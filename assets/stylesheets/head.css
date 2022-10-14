@@ -28,7 +28,6 @@ header{
     background-size: cover;
     background-position: center;
 }
-
 #nav-bar{
     position: sticky;
     display: flex;
@@ -41,6 +40,7 @@ header{
     padding-right: 8%;
 }
 
+
 .logo {
     font-family: 'Leckerli One', cursive;
     color: white;
@@ -48,7 +48,7 @@ header{
     letter-spacing: 1px;
     cursor: pointer;
     position: relative;
-    right: 10px;
+    left: 50px;
 }
 
 span{
@@ -70,7 +70,7 @@ nav ul li a{
 
 nav ul li a:hover{
     color: #f9004d;
-    transition: .4s;
+    transition: .5s;
 }
 
 .btn{
@@ -96,19 +96,25 @@ nav ul li a:hover{
     transform: translateY(-50%);
 }
 
-h1{
+
+
+.content h1{
     color: white;
     margin: 20px 0px 20px;
-    font-size: 150px;
+    font-size: 70px;
+    font-weight: 700;
     font-family: 'Volkhov', serif;
 
 }
-h3{
+
+
+
+.content h3{
     color: white;
     font-size: 25px;
     margin-bottom: 50px;
 }
-h4{
+.content h4{
     color: #fcfc;
     letter-spacing: 2px;
     font-size: 20px;
@@ -157,7 +163,7 @@ h4{
     position: absolute;
     width: 30px;
     height: 30px;
-    left: 20%;
+    left: 10%;
     top: 300px;
 
 }
@@ -166,7 +172,7 @@ h4{
     position: absolute;
     width: 30px;
     height: 30px;
-    left: 35%;
+    left: 16%;
     top: 300px;
 
 }
@@ -202,7 +208,7 @@ h4{
 
 #about>.about-text{
     position: absolute;
-    left: 5%;
+    left: 10%;
     top: 15%;
     color: white;
 
@@ -210,12 +216,12 @@ h4{
 
 #about>h1:nth-child(1){
     position: relative;
-    color: #e7d5d5;
-    font-size: 50px;
-    left: 45%;
+    color: white;
+    font-size: 70px;
+    left: 40%;
     top: 5%;
     display: inline;
-
+    font-family: 'Aclonica', sans-serif;
 }
 
 #cv-card{
@@ -281,7 +287,8 @@ h4{
     color: white;
     left: 40%;
     top: 5%;
-    font-size: 50px;
+    font-size: 70px;
+    font-family: 'Aclonica', sans-serif;
 }
 
 #service-section>.frame{
@@ -357,7 +364,8 @@ h4{
     left: 40%;
     top: 5%;
     color: white;
-    font-size: 50px;
+    font-size: 70px;
+    font-family: 'Aclonica', sans-serif;
 }
 
 #skill-section>#languages{
@@ -425,7 +433,8 @@ h4{
     left: 40%;
     top: 5%;
     color: white;
-    font-size: 50px;
+    font-size: 70px;
+    font-family: 'Aclonica', sans-serif;
 }
 
 
@@ -496,7 +505,8 @@ h4{
     left: 40%;
     top: 5%;
     color: white;
-    font-size: 50px;
+    font-size: 70px;
+    font-family: 'Aclonica', sans-serif;
 }
 
 #contact-section>.icl{
