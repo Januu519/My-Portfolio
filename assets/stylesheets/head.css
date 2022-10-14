@@ -153,9 +153,26 @@ h4{
     line-height: 16px;
 }
 
-
-
 .linkedinWhite{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 20%;
+    top: 300px;
+
+}
+
+.githubWhite{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 35%;
+    top: 300px;
+
+}
+
+
+.instagramWhite{
     position: absolute;
     width: 35px;
     height: 35px;
@@ -164,7 +181,7 @@ h4{
 }
 
 
-.githubWhite{
+.twitterWhite{
     position: absolute;
     width: 35px;
     height: 35px;
@@ -532,7 +549,8 @@ h4{
 #contact-section>#l1 {
     left: 20%;
     top: 92%;
-
+    width: 30px;
+    height: 30px;
 
     /*width: 400px;
     height: 150px;
@@ -547,21 +565,29 @@ h4{
 #contact-section>#l2{
     left: 25%;
     top: 92%;
+    width: 30px;
+    height: 30px;
 }
 
 #contact-section>#l3{
     left: 30%;
     top: 92%;
+    width: 30px;
+    height: 30px;
 }
 
 #contact-section>#l4{
     left: 35%;
     top: 92%;
+    width: 30px;
+    height: 30px;
 }
 
 #contact-section>#l5{
     left: 40%;
     top: 92%;
+    width: 30px;
+    height: 30px;
 }
 
 /*footer*/
