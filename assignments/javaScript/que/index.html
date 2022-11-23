@@ -4,6 +4,33 @@
     <meta charset="UTF-8">
     <title>Que Process</title>
     <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
+
+
+    <style>
+        #main-sec{
+            position: absolute;
+            width: 60%;
+            height: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        #contianer>div{
+            border : black 2px solid;
+            width: 150px;
+            position: relative;
+            display: inline-block;
+        }
+
+        #contianer>div>h1{
+            margin-left: 30px;
+        }
+
+
+    </style>
 </head>
 <body>
 <main>
@@ -42,5 +69,61 @@
     </section>
 </main>
 
-</body>
+<script src="../Inclass Assignments/event/jQuery/jquery-3.6.1.min.js"></script>
+<script>
+    var colorList = ["red", "blue", "green", "orange", "pink", "purple", "yellow", "black"];
+    var selectedColor;
+    var remData;
+
+    for (let i = 0; i<colorList.length; i++ ) {
+        $("#colourList").append(`<option>${colorList[i]}</option>`);
+    }
+
+    $('#colourList').on('change', function() {
+        selectedColor = $(this).val();
+    });
+
+    var  obList = [
+        {name : "Portpolio",color : "red"},
+        {name :"Assignments", color : "blue"},
+        {name :"Projects", color : "green"}
+    ];
+    function timek(){
+        setInterval(makeBox,500);
+    }
+    function makeBox(){
+        $("#contianer").empty();
+        timek();
+        for (let i=0; i<obList.length; i++ ){
+            $("#contianer").append(`<div style="background-color:${obList[i].color} "><h1>${obList[i].name}</div></h1>`);
+        }
+        setBox();
+    }
+    makeBox();
+
+
+    function setBox(){
+        remData = obList.pop();
+        obList.unshift(remData);
+
+    }
+
+    $("#addTo").on("click",function () {
+        remData = obList.pop();
+        obList.unshift(remData);
+        getDetails();
+        makeBox();
+    });
+
+    function getDetails(){
+        var colo = selectedColor;
+        var pName = $("#txtName").val();
+
+        obList.unshift({name: pName, color: colo});
+    }
+
+</script>
+
+
+    </body>
 </html>
