@@ -5,8 +5,61 @@
     <title>Color Changer</title>
     <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
     <link rel="stylesheet" href="style/normalize.css">
+    <style>
+
+    </style>
+
+
 </head>
 <body>
+<main>
+<div id="boxId"></div>
+
+<button id="startButton">Start</button>
+<button id="stopButton">Stop</button>
+</main>
+
+<script src="jQuery/jquery-3.6.1.min.js"></script>
+<script>
+    var color = ["red","green","blue","yellow","pink","black"];
+    let n =0;
+    var cond = true;
+    var i = 0;
+
+    $("#startButton").on('click',function () {
+        ndd();
+    });
+
+
+
+    function ndd(){
+        setTimeout(goLoop,500);
+    }
+
+    function goLoop(){
+
+        var col = color[i];
+        $("#boxId").css('background-color',col);
+        i++;
+        ndd();
+        if (i === 7){
+            i = 0;
+        }
+    }
+
+    function infinit(){
+
+        alert("in infinit");
+        // goLoop(0);
+    }
+
+
+
+
+
+
+</script>
+
 
 </body>
 </html>
