@@ -456,6 +456,18 @@ nav ul li a:hover{
     font-family: 'Aclonica', sans-serif;
 }
 
+#github link{
+
+    position: relative;
+    display: inline;
+    left:22%;
+    top: 82%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Aclonica', sans-serif;
+
+
+}
 
 #hostel{
     position: relative;
