@@ -4,10 +4,12 @@
 
 .background{
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background-image: url("../image/background.jpg");
     background-size: cover;
     background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
 }
 
 .girl{
@@ -15,6 +17,26 @@
     width: 300px;
     height: 280px;
     left: 2vw;
-    top: 370px;
+    margin-top: 440px;
     z-index: 2;
+}
+
+.box{
+    width:250px ;
+    height: 250px;
+    /*background-color: red;*/
+    position: absolute;
+    margin-top: 550px;
+    background-image: url("../image/Z8Dq.gif");
+    background-size:contain ;
+    background-repeat: no-repeat;
+
+}
+
+.score{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 20px;
+    position: absolute;
 }
