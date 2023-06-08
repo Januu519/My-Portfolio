@@ -306,7 +306,7 @@ nav ul li a:hover{
 
 #service-section>.frame{
     position: absolute;
-    color: #0c39bf;
+    color: #99a6ce;
    /* display: inline;*/
     top: 25%;
     width: 300px;
@@ -337,7 +337,7 @@ nav ul li a:hover{
     border-radius: 100px;
     left: 30%;
     top: 2%;
-    border: white solid 3px;
+    border: #191818 solid 1px;
 }
 
 #service-section>.frame>.icn>.im{
